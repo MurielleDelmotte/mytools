@@ -13,7 +13,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 usethis::use_git()
 
+
+usethis::use_git_remote("origin",
+                        url = "https://github.com/MurielleDelmotte/mytools.git",
+                        overwrite = TRUE)
+gert::git_push(remote = "origin")
 ```
 
 
-https://github.com/MurielleDelmotte/mytools.git
+
