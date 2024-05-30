@@ -1,0 +1,19 @@
+---
+title: "dev history"
+output: html_document
+date: "2024-05-30"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Git
+
+```{r}
+usethis::use_git()
+
+```
+
+
+https://github.com/MurielleDelmotte/mytools.git
